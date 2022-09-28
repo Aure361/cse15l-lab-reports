@@ -20,3 +20,5 @@
 ![Image](http://url/a.png)
 
 [Link](http://a.com)
+
+Here are some new changes in *visual studio code*
