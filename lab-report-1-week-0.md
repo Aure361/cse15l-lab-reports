@@ -1,3 +1,3 @@
 ![Image](week0lab.png)
 
-[Lab Report 1](index.html)
+[Index](https://aure361.github.io/cse15l-lab-reports/index.html)

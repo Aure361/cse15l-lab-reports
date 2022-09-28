@@ -22,3 +22,5 @@
 [Link](http://a.com)
 
 Here are some new changes in *visual studio code*
+
+[Lap report 1](https://aure361.github.io/cse15l-lab-reports/lab-report-1-week-0.html)
