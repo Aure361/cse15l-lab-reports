@@ -25,4 +25,4 @@ Here are some new changes in *visual studio code*
 
 [Lap report 0](https://aure361.github.io/cse15l-lab-reports/lab-report-1-week-0.html)
 
-[Lap report 1](https://aure361.github.io/cse15l-lab-reports/lab-report-1-week-0.html)
+[Lap report 1](https://aure361.github.io/cse15l-lab-reports/Week1LabReport.html)
