@@ -4,7 +4,7 @@
 
 Download link and instructions: [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
-- once downloaded it should look like this
+- Once downloaded it should look like this
 ![Image](InstallingVScode.png)
 
 **Info**
