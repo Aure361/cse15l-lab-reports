@@ -2,7 +2,7 @@
 
 > Step 1: Installing VScode
 
-Download link and instructions: https://code.visualstudio.com/
+Download link and instructions: [https://code.visualstudio.com/](https://code.visualstudio.com/)
 
 - once downloaded it should look like this
 ![Image](InstallingVScode.png)
@@ -52,7 +52,7 @@ Download link and instructions: https://code.visualstudio.com/
 ![Image](SettinganSSHKey.png)
 
 **Info** 
-- I'm a window's user so I followed the following instructions: https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation in order to use ssh and scp without a password
+- I'm a window's user so I followed the following instructions: [https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation) in order to use ssh and scp without a password
 
 - On client terminal run: ssh-keygen -t ed25519
 
