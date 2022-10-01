@@ -62,7 +62,7 @@ Download link and instructions: [https://code.visualstudio.com/](https://code.vi
 
 - Then, back on client I executed the following command: scp C:\Users\Aurelio/.ssh/id_ed25519.pub cs15lfa22hi@ieng6.ucsd.edu:~/.ssh/authorized_keys *(type username correspondingly)*
 
-- The image above demonstrates the use of ssh without the use of typing a password
+- The image above demonstrates the use of ssh without the need of typing a password
 
 > Step 6: Optimizing Remote Running
 
