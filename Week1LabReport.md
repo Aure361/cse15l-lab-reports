@@ -5,7 +5,7 @@
 Download link and instructions: https://code.visualstudio.com/
 
 - once downloaded it should look like this
-![Image](screenshot.png)
+![Image](InstallingVScode.png)
 
 **Info**
 
@@ -15,7 +15,7 @@ Download link and instructions: https://code.visualstudio.com/
 
 - [Download OpenSSH client only](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse)
 
-![Image](screenshot.png)
+![Image](RemotelyConnecting.png)
 
 **Info**
 
@@ -27,7 +27,7 @@ Download link and instructions: https://code.visualstudio.com/
 
 > Step 3: Trying Some Commands
 
-![Image](screenshot.png)
+![Image](TryingSomeCommands.png)
 
 **Info** 
 
@@ -39,7 +39,7 @@ Download link and instructions: https://code.visualstudio.com/
 
 > Step 4: Moving Files with scp
 
-![Image](screenshot.png)
+![Image](MovingFileswithscp.png)
 
 **Info** 
 - The image above shows the result of moving files from your computer to the remote server
@@ -49,7 +49,7 @@ Download link and instructions: https://code.visualstudio.com/
 
 > Step 5: Setting an SSH Key
 
-![Image](screenshot.png)
+![Image](SettinganSSHKey.png)
 
 **Info** 
 - I'm a window's user so I followed the following instructions: https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation in order to use ssh and scp without a password
@@ -66,7 +66,7 @@ Download link and instructions: https://code.visualstudio.com/
 
 > Step 6: Optimizing Remote Running
 
-![Image](screenshot.png)
+![Image](OptimizingRemoteRunning.png)
 
 **Info** 
 - The image above demonstrates optimizing remote running. For instance, once a file is edited (in this case WhereAmI.java) run the command: scp WhereAmI.java cs15lfa22hi@ieng6.ucsd.edu:~/ 
