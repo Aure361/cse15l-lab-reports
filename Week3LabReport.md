@@ -64,3 +64,19 @@
 - The method handleRequest(URI url) is called. The relevant arguments are "/Stringlist". If these values are found in the url, then it will return a string format of the stringlist. The server will display "Stringlist is now: *list of strings*"
 
 ## Part Two
+ > Bug 1
+
+ **ArrayExamples - reverseInPlace**
+
+ - The failure-inducing input was {1, 2, 3, 4, 5}
+ - The sympton was at index 4 it expected a value 1 and not a 5
+ - The bug was it's not reversing the list. So in order to fix it, 
+ - The bug caused that particular sympton because it was copying its first two values to the end. 
+
+
+ > Bug 2
+
+-The failure-inducing input (the code of the test)
+-The symptom (the failing test output)
+-The bug (the code fix needed)
+-Then, explain the connection between the symptom and the bug. Why does the bug cause that particular symptom for that particular input?
