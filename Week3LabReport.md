@@ -79,6 +79,7 @@
  *Original vs New*
 
  ![Image](bug1original.png)
+ 
  ![Image](bug1fixed.png)
 
  - One can see that the original code wasn't switching the first elements to the end, instead the for loop was moving the last elements to the front. In the fixed code, a temp value was created to save the element being reversed. Also it took into consideration arrays that were odd or even in index by diving the length of the for loop by 2.
@@ -100,6 +101,7 @@
  *Original vs New*
 
  ![Image](bug2original.png)
+
  ![Image](bug2fixed.png) 
 
  - The bug was fixed by first of all making sure that ListExamples implemented the interface StringChecker and adding the implementation of the method checkString(String s). Then creating a constructor that would allow creating an object of ListExamples to be able to test the method filter()
