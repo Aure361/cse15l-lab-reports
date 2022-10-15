@@ -68,13 +68,28 @@
 
  **ArrayExamples - reverseInPlace**
 
+![Image](bug1input.png)
  - The failure-inducing input was {1, 2, 3, 4, 5}
- - The sympton was at index 4 it expected a value 1 and not a 5
- - The bug was it's not reversing the list. So in order to fix it, 
- - The bug caused that particular sympton because it was copying its first two values to the end. 
 
+![Image](bug1output.png)
+ - The sympton was at index 3 it expected a value 2 and not a 4
+
+ - The bug was it's not reversing the list. So in order to fix it, I did the following. 
+ 
+ *Original vs New*
+
+ ![Image](bug1original.png)
+ ![Image](bug1fixed.png)
+
+ - One can see that the original code wasn't switching the first elements to the end, instead the for loop was moving the last elements to the front. In the fixed code, a temp value was created to save the element being reversed. Also it took into consideration arrays that were odd or even in index by diving the length of the for loop by 2.
+ 
+ - Ultimately the bug caused that particular sympton because it was not saving the value of the element that was going to be reversed.
 
  > Bug 2
+
+ ![Image](bug1input.png)
+
+
 
 -The failure-inducing input (the code of the test)
 -The symptom (the failing test output)
