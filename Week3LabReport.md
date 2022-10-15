@@ -87,7 +87,15 @@
 
  > Bug 2
 
- ![Image](bug1input.png)
+**ListExamples - filter**
+
+- The failure-inducing input was the following
+
+ ![Image](bug2input.png)
+
+ - The Sympton were compile errors because the checkString method had not been implemented in ListExamples. 
+
+ - The bug was fixed by first of all making sure that ListExamples implemented the interface StringChecker and adding the implementation of the method checkString(String s) 
 
 
 
