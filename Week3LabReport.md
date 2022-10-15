@@ -1,4 +1,4 @@
-> Part One
+## Part One
 
 **Code**
 
@@ -44,12 +44,23 @@
     }
 `}`
 
+> Loading server
+
 ![Image](lab3serverpic1.png)
 
-- Opening website
 
+- The method handleRequest(URI url) is called. The relevant arguments are either nothing after the 4000 or "/". If these values are found in the url, then once the request is processed it will show a server that displays "Stringlist:"
 
+> Adding strings to server
 
-Here we can see
+![Image](lab3serverpic2.png)
 
-> Part Two
+- The method handleRequest(URI url) is called. The relevant arguments are "/add". If these values are found in the url, the string found after the query will be added to a string list. Then the server will display "Has been added to Stringlist: *string added*"
+
+> Displaying updated Stringlist
+
+![Image](lab3serverpic3.png)
+
+- The method handleRequest(URI url) is called. The relevant arguments are "/Stringlist". If these values are found in the url, then it will return a string format of the stringlist. The server will display "Stringlist is now: *list of strings*"
+
+## Part Two
