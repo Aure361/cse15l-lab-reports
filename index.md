@@ -26,3 +26,5 @@ Here are some new changes in *visual studio code*
 [Lab report 0](https://aure361.github.io/cse15l-lab-reports/lab-report-1-week-0.html)
 
 [Lab report 1](https://aure361.github.io/cse15l-lab-reports/Week1LabReport.html)
+
+[Lab report 3](https://aure361.github.io/cse15l-lab-reports/Week3LabReport.html)
