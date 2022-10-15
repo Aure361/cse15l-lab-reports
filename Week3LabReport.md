@@ -79,7 +79,7 @@
  *Original vs New*
 
  ![Image](bug1original.png)
- 
+
  ![Image](bug1fixed.png)
 
  - One can see that the original code wasn't switching the first elements to the end, instead the for loop was moving the last elements to the front. In the fixed code, a temp value was created to save the element being reversed. Also it took into consideration arrays that were odd or even in index by diving the length of the for loop by 2.
@@ -92,7 +92,7 @@
 
  ![Image](bug2input.png)
 
-- The failure-inducing input was the following
+- The failure-inducing input was the above
 
 ![Image](bug2output.png)
 
