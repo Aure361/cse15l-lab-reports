@@ -83,23 +83,25 @@
 
  - One can see that the original code wasn't switching the first elements to the end, instead the for loop was moving the last elements to the front. In the fixed code, a temp value was created to save the element being reversed. Also it took into consideration arrays that were odd or even in index by diving the length of the for loop by 2.
  
- - Ultimately the bug caused that particular sympton because it was not saving the value of the element that was going to be reversed.
+ - Ultimately the bug caused that particular symptom because it was not saving the value of the element that was going to be reversed.
 
  > Bug 2
 
 **ListExamples - filter**
 
-- The failure-inducing input was the following
-
  ![Image](bug2input.png)
 
- - The Sympton were compile errors because the checkString method had not been implemented in ListExamples. 
+- The failure-inducing input was the following
 
- - The bug was fixed by first of all making sure that ListExamples implemented the interface StringChecker and adding the implementation of the method checkString(String s) 
+![Image](bug2output.png)
 
+ - The Sympton were compile errors because the checkString method had not been implemented in ListExamples.
 
+ *Original vs New*
 
--The failure-inducing input (the code of the test)
--The symptom (the failing test output)
--The bug (the code fix needed)
--Then, explain the connection between the symptom and the bug. Why does the bug cause that particular symptom for that particular input?
+ ![Image](bug2original.png)
+ ![Image](bug2fixed.png) 
+
+ - The bug was fixed by first of all making sure that ListExamples implemented the interface StringChecker and adding the implementation of the method checkString(String s). Then creating a constructor that would allow creating an object of ListExamples to be able to test the method filter()
+
+ - Ultimately the bug caused that particular symptom because it needed some implementations to allow the tests to run.
