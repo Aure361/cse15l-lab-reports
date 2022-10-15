@@ -44,4 +44,12 @@
     }
 `}`
 
+![Image](lab3serverpic1.png)
+
+- Opening website
+
+
+
+Here we can see
+
 > Part Two
