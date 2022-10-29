@@ -10,13 +10,27 @@
 
 `class Handler implements URLHandler {`
 
-    ArrayList<String> stringList = new ArrayList<>();
+`ArrayList<String> stringList = new ArrayList<>();`
+
     public String handleRequest(URI url) {
         if (url.getPath().equals("/")) {
-            return String.format("Stringlist: ");
-        } else if (url.getPath().equals("/Stringlist")) {
-            return String.format("Stringlist is now: " + stringList);
-        } else {
+            return String.format("Stringlist: " + stringList);
+        } 
+        System.out.println("Path: " + url.getPath());
+        if (url.getPath().contains("/search")) {
+            String[] parameters = url.getQuery().split("=");
+            if (parameters[0].equals("s")) {
+                ArrayList<String> subStringList = new ArrayList<>();
+                for (int i = 0; i < stringList.size(); i += 1) {
+                    if (stringList.get(i).contains(parameters[1])) {
+                        subStringList.add(stringList.get(i));
+                    }
+                }
+                return String.format("" + subStringList);
+            }            
+            return "404 Not Found!";
+        }
+        else {
             System.out.println("Path: " + url.getPath());
             if (url.getPath().contains("/add")) {
                 String[] parameters = url.getQuery().split("=");
@@ -28,7 +42,7 @@
             return "404 Not Found!";
         }
     }
-`}`
+}
 
 `class NumberServer {`
 
@@ -44,22 +58,22 @@
     }
 `}`
 
-> Loading server
+> Tracks a list of strings
 
-![Image](lab3serverpic1.png)
+![Image](serverpic1.png)
 
 
 - The method handleRequest(URI url) is called. The relevant arguments are either nothing after the 4000 or "/". If these values are found in the url, then once the request is processed it will show a server that displays "Stringlist:"
 
-> Adding strings to server
+>  A path for adding a new string to the list,
 
-![Image](lab3serverpic2.png)
+![Image](serverpic2.png)
 
 - The method handleRequest(URI url) is called. The relevant arguments are "/add". If these values are found in the url, the string found after the query will be added to a string list. Then the server will display "Has been added to Stringlist: *string added*"
 
-> Displaying updated Stringlist
+> Querying the list of strings and returning a list of all strings that have a given substring
 
-![Image](lab3serverpic3.png)
+![Image](serverpic3.png)
 
 - The method handleRequest(URI url) is called. The relevant arguments are "/Stringlist". If these values are found in the url, then it will return a string format of the stringlist. The server will display "Stringlist is now: *list of strings*"
 
