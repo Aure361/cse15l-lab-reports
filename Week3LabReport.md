@@ -86,7 +86,7 @@
 
 - In this scenario, getPath() and contains() method check if the url has the argument "/search". If true, getQuery() and split() will create two arguments off the url. Then equals() will check if the first argument is an "s" and if so will use the second argument, parameters[1]. A relevant field is ArrayList<String> subStringList; because it will keep track of strings that contain the substring that is given by parameters[1]. 
 
-- If parameters[1] is changed, then the web page will display a new string list according to the given parameters[1]. *parameters[1] is an input in the url after "=" that is used to check if an element on Array<String> stringList; contains that substring. If so it will add this element to Array<String> subStringList;*
+- If parameters[1] is changed, then the web page will display a new string list according to the given parameters[1]. Note: parameters[1] is an input in the url after "=" that is used to check if an element on Array<String> stringList; contains that substring. If so it will add this element to Array<String> subStringList;
 
 ## Part Two
  > Bug 1
