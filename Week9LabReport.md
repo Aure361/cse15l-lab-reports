@@ -83,4 +83,4 @@ With this information we can see the indicated student-submission is cloned and 
 
 `fi`
 
-this demonstrates that Example 2 does not compile and lets the user know by echoing the output "ListExamples.java did not compiled" and proceeds to exit. We know that because it exits here, this is the end of the grade script. Hence all lines were executed, except the code within the if branches that we have explained why in the text above.
+this demonstrates that Example 2 does not compile and lets the user know by echoing the output "ListExamples.java did not compiled" and proceeds to exit. We know that because it exits here, this is the end of the grade script. Hence all lines were executed, except the code within the if branches which we have explained why in the text above.
