@@ -6,9 +6,9 @@
 
 ![Image](step1.png)
 
-j j j j j j j j j j j j j j j j j j j j (16 j's)
+- j j j j j j j j j j j j j j j j j j j j (16 j's)
 
-l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l (30 L's)
+- l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l (30 L's)
 
 > Step 2
 
