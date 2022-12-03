@@ -6,13 +6,15 @@
 
 ![Image](step1.png)
 
-- `Click/place` cursor after first curly bracket of "if(f.isDirectory())"
+j j j j j j j j j j j j j j j j j j j j (16 j's)
+
+l l l l l l l l l l l l l l l l l l l l l l l l l l l l l l (30 L's)
 
 > Step 2
 
 ![Image](step2.png)
 
-- Press `O` to enter insert mode and create a line before "File[] paths = f.listFiles();"
+- Press `O` to enter insert mode and create a line before "File[] paths = f.listFiles();" (note: in vim, when you are in visual mode and press O. You will enter insert mode and automatically add a line)
 
 > Step 3
 
